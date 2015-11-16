@@ -1,0 +1,11 @@
+class Student
+{
+    static void Main(string[] args)
+    {
+        StudentMethod std = new StudentMethod();
+        std.Roll = 1;
+        std.Name = "Ram";
+        Console.WriteLine("Roll: {0} and Name: {1}", std.Roll, std.Name);
+        Console.ReadKey();
+    }
+}

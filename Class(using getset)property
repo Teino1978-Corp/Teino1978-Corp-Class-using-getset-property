@@ -1,0 +1,8 @@
+First we create a class & write the following code:
+
+
+public class StudentMethod
+{
+    public int Roll { get; set; }
+    public string Name { get; set; }
+}
